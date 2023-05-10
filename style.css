@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&family=Poppins:ital,wght@1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./galaxy.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Poppons", sans-serif;
+    margin: 0;
+    color: rgb(224, 215, 224);
+    background: linear-gradient(rgb(87, 81, 87));
+}
+
+h1{
+    font-size: 6rem;
+    justify-content: center;
+    font-family: 'Inspiration', cursive;
+    font-size: 10rem;
+
+    
+}
+
+.countdown-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.count-el{
+    text-align: center;
+}
+
+.count-el span{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(95, 72, 95);
+}
